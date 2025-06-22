@@ -1,0 +1,40 @@
+/* General styling */
+body {
+    background: url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Content Styling */
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent background for readability */
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+
+/* Result Section Styling */
+.result {
+    margin-top: 20px;
+}
+
+/* Crop Image Styling */
+.crop-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 20px;
+    object-fit: cover;
+}
